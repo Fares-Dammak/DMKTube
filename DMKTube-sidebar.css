@@ -1,0 +1,70 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    position: fixed;
+    top: 55px;
+    left: 0px;
+    bottom: 0px;
+    width: 72px;
+    background-color: white;
+    padding-top: 5px;
+}
+.sidebar-link {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;    
+    width: 72px;
+    height: 72px;
+}
+.sidebar-link:hover {
+    background-color: rgb(223, 218, 218);
+}
+.home-icon {
+    height: 24px;
+    margin-bottom: 6px;
+}
+.home-text {
+    font-size: 10px;
+    font-weight: 400;
+    text-size-adjust: 100%;
+    font-family: Roboto,arial;
+}
+
+.shorts-icon {
+    height: 44px;
+    margin-bottom: 2px;
+}
+.shorts-text {
+    font-size: 10px;
+    font-weight: 400;
+    text-size-adjust: 100%;
+    font-family: Roboto,arial;
+}
+
+.subscriptions-icon {
+    height: 24px;
+    margin-bottom: 6px;
+}
+.subscriptions-text {
+    font-size: 10px;
+    font-weight: 400;
+    text-size-adjust: 100%;
+    font-family: Roboto,arial;
+}
+.library-icon {
+    height: 24px;
+    margin-bottom: 6px;
+}
+.library-text {
+    font-size: 10px;
+    font-weight: 400;
+    text-size-adjust: 100%;
+    font-family: Roboto,arial;
+}
+
+

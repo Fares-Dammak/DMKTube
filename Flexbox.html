@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FlexBox Practice</title>
+        <link rel="stylesheet" href="DMKtube-vedio.css">
+    </head>
+    <body>
+        <div class="div-img">
+            <div style="width: 200px; height: 200px; background-color: red;"></div>
+            <div style="width: 200px; height:200px; background-color: red;"></div>
+            <div style="width: 200px; height:200px; background-color: red;"></div>
+            <div style="width: 200px; height:200px; background-color: red;"></div>
+            <div style="width: 200px; height:200px; background-color: red;"></div>
+            <div style="width: 200px; height:200px; background-color: red;"></div>
+            <div style="width: 200px; height:200px; background-color: red;"></div>
+            <div style="width: 200px; height:200px; background-color: red;"></div>
+        </div>
+        <!--deferance entre grid et flex est 
+            1-flex m3ndhech tartib mo7adid mouch kima grid t7adid tartib milawil 
+            2-fil flex mafamech nbr mou3ayin mt3 colone w row 
+        -->
+        <div style="
+            display: flex;
+            flex-direction: row;
+        "><!--flex-direction: column; -->
+            <div style="background-color: lightblue;">div 1 text</div>
+            <div style="background-color: lightpink;">div 2 <p>text</p></div>
+        </div>
+
+        <div style="
+            display: flex;
+            flex-direction: row;
+            margin-top: 30px;
+        "><!--flex-direction: column; -->
+            <div style="background-color: lightblue; width: 100px;">
+                100px
+            </div>
+            <div style="background-color: lightpink; flex: 1;">
+                flex 1 
+            </div>
+        </div>
+
+        <div style="
+            display: flex;
+            flex-direction: row;
+            margin-top: 30px;
+        "><!--flex-direction: column; -->
+            <div style="
+            background-color: lightblue; width: 100px;"
+            >
+                100px
+            </div>
+            <div style="
+            background-color: lightpink; flex: 1;">
+                flex 1 
+            </div>
+            <div style="
+            background-color: lightblue; flex: 2;">
+                flex 2
+            </div>
+        </div>
+
+        <div style="
+            display: flex;
+            flex-direction: row;
+            margin-top: 30px;
+            height: 70px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: gray;
+            justify-content: space-between;
+        "><!--flex-direction: column;
+            justify-content: start or end or center; win t7iv les element mt3ik mawjoudin
+
+        -->
+           <div style="
+           background-color: lightblue; width: 300px;">
+              100px 
+           </div>
+           <div style="
+            background-color: lightpink; width: 300px;"
+            >
+                100px
+            </div>
+            
+            <div style="
+            background-color: lightblue; width: 300px;">
+                100px
+            </div>
+        </div>
+
+        <div style="
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        height: 70px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+        justify-content: space-between;
+        align-items: stretch;
+    "><!--flex-direction: column;
+        justify-content: start or end or center or space-between; win t7iv les element mt3ik mawjoudin horizontalement
+        align-items: start or end or center or stretch;win t7ib les element mt3ik mawjoudin veticalement
+            
+    -->
+       <div style="
+       background-color: lightblue; width: 100px;">
+         <img class="thumbnail" src="thumbnails/thumbnail-2 (1).webp" alt="it a thumbnail"> 
+       </div>
+       <div style="
+        background-color: lightpink; width: 100px;"
+        >
+        <img class="thumbnail" src="thumbnails/thumbnail-2 (1).webp" alt="it a thumbnail">
+        </div>
+        
+        <div style="
+        background-color: lightblue; width: 100px;">
+            <img class="thumbnail" src="thumbnails/thumbnail-2 (1).webp" alt="it a thumbnail">
+        </div>
+
+    </body>
+</html>
